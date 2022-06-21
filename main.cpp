@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstdlib>
+#include <cmath>
 #include "5/search.h"
 
 void test_search_linear(){
@@ -18,7 +18,8 @@ void test_binary_search(){
 }
 
 int main() {
-    test_binary_search();
+
+
     return 0;
 }
 
