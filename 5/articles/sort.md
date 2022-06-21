@@ -17,3 +17,38 @@ swapping the adjacent elements if they are in the wrong order.
 #### Performance
 
 ![img_3.png](img_3.png)
+
+---
+
+### Insertion sort
+
+Insertion sort is a simple sorting algorithm that works similar to the 
+way you sort playing cards in your hands. The array is virtually split into 
+a sorted and an unsorted part. Values from the unsorted part
+are picked and placed at the correct position in the sorted part.
+
+#### Illustration
+
+**Video**
+
+[![img_7.png](img_7.png)](https://www.youtube.com/watch?v=JU767SDMDvA&ab_channel=MichaelSambol)
+
+#### When to use and when don't
+
+Use insertion sort in the following scenarios:
+
+- When the array is nearly sorted - since insertion sort is adaptive
+- When we have memory usage constraints
+- When a simple sorting implementation is desired
+- When the array to be sorted is relatively small
+- When you need to sort elements online - that is sorting them as they come in.
+
+Avoid using insertion sort when:
+
+- The array to be sorted has a large number of elements
+- The array is completely  unsorted
+- You want a faster run time and memory is not a concern.
+
+#### Performance
+
+![img_5.png](img_5.png)

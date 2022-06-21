@@ -32,8 +32,15 @@ void  test_bubble_sort(){
     print_array(arr, n);
 }
 
+void test_insertion_sort(){
+    int arr[] = { 12, 11, 13, 5, 6 };
+    int n = sizeof(arr) / sizeof(arr[0]);
+    insertion_sort(arr, n);
+    print_array(arr, n);
+}
+
 int main() {
-    test_bubble_sort();
+    test_insertion_sort();
     return 0;
 }
 
