@@ -46,8 +46,16 @@ void test_selection_sort(){
     print_array(arr, n);
 }
 
+void test_counting_sort(){
+    // use 0 to 10 elements only
+    int arr[] = {4, 2, 2, 8, 3, 3, 1};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    counting_sort(arr, n);
+    print_array(arr, n);
+}
+
 int main() {
-    test_selection_sort();
+    test_counting_sort();
     return 0;
 }
 

@@ -8,6 +8,8 @@ swapping the adjacent elements if they are in the wrong order.
 
 #### Illustration
 
+![img_14.png](img_14.png)
+
 ![img_4.png](img_4.png)
 
 **Video**
@@ -28,6 +30,8 @@ a sorted and an unsorted part. Values from the unsorted part
 are picked and placed at the correct position in the sorted part.
 
 #### Illustration
+
+![img_15.png](img_15.png)
 
 **Video**
 
@@ -64,6 +68,8 @@ The algorithm maintains two subarrays in a given array.
 
 #### Illustration
 
+![img_16.png](img_16.png)
+
 **Video**
 
 [![img_9.png](img_9.png)](https://www.youtube.com/watch?v=g-PGLbMth_g&ab_channel=MichaelSambol)
@@ -89,16 +95,25 @@ Avoid using Selection sort when:
 
 ---
 
-### Counting sort
+### Counting sort(Sort only positive integers)
 
+Counting sort is a sorting algorithm that sorts the elements of an array 
+by counting the number of occurrences of each unique element in the array. 
+The count is stored in an auxiliary array and the sorting is done by mapping the count as an index of the auxiliary array.
 
 #### Illustration
 
+![img_12.png](img_12.png)
+
 **Video**
+
+[![img_13.png](img_13.png)](https://www.youtube.com/watch?v=OKd534EWcdk)
 
 #### When to use and when don't
 
-
+- This sorting technique is effective when the difference between different keys are not so big, otherwise, it can increase the space complexity.
+- Counting sort makes assumptions about the data, for example, it assumes that values are going to be in the range of 0 to 10 or 10 – 99 etc, Some other assumptions counting sort makes are input data will be all real numbers.
+- Like other algorithms this sorting algorithm is not a comparison-based algorithm, it hashes the value in a temporary count array and uses them for sorting.
 #### Performance
 
 ![img_10.png](img_10.png)
