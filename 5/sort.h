@@ -4,5 +4,5 @@
 
 #ifndef ALGORITHMS_SORT_H
 #define ALGORITHMS_SORT_H
-
+void bubble_sort(int arr[], int size);
 #endif //ALGORITHMS_SORT_H
