@@ -27,11 +27,11 @@
 - [Линейный поиск](5/articles/search.md#linear-search)
 - [Двоичный поиск](5/articles/search.md#binary-search)
 - [Пузырьковая сортировка](5/articles/sort.md#bubble-sort)
-- [Сортировка вставкой](5/articles/sort.md)
-- Сортировка выбором.
-- Сортировка подсчётом.
-- Поразрядная сортировка.
-- Алгоритм сортировки слиянием.
+- [Сортировка вставкой](5/articles/sort.md#insertion-sort)
+- [Сортировка выбором](5/articles/sort.md#selection-sort)
+- [Сортировка подсчётом](5/articles/sort.md#counting-sort)
+- [Поразрядная сортировка](5/articles/sort.md#radix-sort)
+- [Алгоритм сортировки слиянием](5/articles/sort.md#merge-sort)
 - Быстрая сортировка.
 - Сортировка кучей.
 

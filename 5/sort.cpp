@@ -25,3 +25,13 @@ void insertion_sort(int arr[], int size){
         arr[j + 1] = key;
     }
 }
+
+void selection_sort(int arr[], int size){
+    for (int i = 0; i < size; ++i) {
+        int local_min = i;
+        for (int j = i + 1; j < size; ++j) {
+            if (arr[j] < arr[local_min]) local_min = j;
+            if (local_min != i) std::swap(arr[i], arr[local_min]);
+        }
+    }
+}

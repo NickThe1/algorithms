@@ -52,3 +52,73 @@ Avoid using insertion sort when:
 #### Performance
 
 ![img_5.png](img_5.png)
+
+---
+
+### Selection sort
+
+The selection sort algorithm sorts an array by repeatedly finding 
+the minimum element (considering ascending order) from unsorted part and
+putting it at the beginning. 
+The algorithm maintains two subarrays in a given array.
+
+#### Illustration
+
+**Video**
+
+[![img_9.png](img_9.png)](https://www.youtube.com/watch?v=g-PGLbMth_g&ab_channel=MichaelSambol)
+
+#### When to use and when don't
+
+Use selection sort in the following scenarios:
+
+- When the array is NOT partially sorted
+- When we have memory usage constraints
+- When a simple sorting implementation is desired
+- When the array to be sorted is relatively small
+
+Avoid using Selection sort when:
+
+- The array to be sorted has a large number of elements
+- The array is nearly sorted
+- You want a faster run time and memory is not a concern.
+
+#### Performance
+
+![img_8.png](img_8.png)
+
+---
+
+### Counting sort
+
+
+#### Illustration
+
+**Video**
+
+#### When to use and when don't
+
+
+#### Performance
+
+![img_10.png](img_10.png)
+
+---
+
+### Radix sort
+
+
+#### Illustration
+
+**Video**
+
+#### When to use and when don't
+
+
+#### Performance
+
+![img_11.png](img_11.png)
+
+---
+
+### Merge sort

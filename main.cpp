@@ -39,8 +39,15 @@ void test_insertion_sort(){
     print_array(arr, n);
 }
 
+void test_selection_sort(){
+    int arr[] = {64, 25, 12, 22, 11};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    selection_sort(arr, n);
+    print_array(arr, n);
+}
+
 int main() {
-    test_insertion_sort();
+    test_selection_sort();
     return 0;
 }
 
