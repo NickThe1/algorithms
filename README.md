@@ -32,8 +32,8 @@
 - [Сортировка подсчётом](5/articles/sort.md#counting-sort)
 - [Поразрядная сортировка](5/articles/sort.md#radix-sort)
 - [Алгоритм сортировки слиянием](5/articles/sort.md#merge-sort)
-- Быстрая сортировка.
-- Сортировка кучей.
+- [Быстрая сортировка](5/articles/sort.md#quick-sort)
+- [Сортировка кучей](5/articles/sort.md#heap-sort)
 
 
 

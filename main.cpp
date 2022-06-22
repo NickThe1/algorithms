@@ -68,8 +68,15 @@ void test_merge_sort(){
     print_array(arr, n);
 }
 
+void test_quick_sort(){
+    int arr[] = {-10, 7, 8, 9, 1, 5};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    quick_sort(arr, 0, n - 1);
+    print_array(arr, n);
+}
+
 int main() {
-    test_merge_sort();
+    test_quick_sort();
     return 0;
 }
 

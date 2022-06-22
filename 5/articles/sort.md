@@ -173,9 +173,44 @@ process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the tw
 
 #### When to use and when don't
 
+- Mergesort is quicker when dealing with linked lists. This is because pointers can easily be changed when merging lists. It only requires one pass (O(n)) through the list.
+
+- Quicksort's in-place algorithm requires the movement (swapping) of data. While this can be very efficient for in-memory dataset, it can be much more expensive if your dataset doesn't fit in memory. The result would be lots of I/O.
 
 #### Performance
 
 ![img_19.png](img_19.png)
 
 ---
+
+### Quick sort
+
+Like Merge Sort, QuickSort is a Divide and Conquer algorithm. It picks an element as pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways.
+
+- Always pick first element as pivot.
+- Always pick last element as pivot (implemented below)
+- Pick a random element as pivot.
+- Pick median as pivot.
+
+#### Illustration
+
+![img_26.png](img_26.png)
+
+**Video**
+
+[![img_24.png](img_24.png)](https://www.youtube.com/watch?v=Hoixgm4-P4M&t=149s&ab_channel=MichaelSambol)
+
+#### When to use and when don't
+
+- Commercial Computing is used in various government and private organizations for the purpose of sorting various data like sorting files by name/date/price, sorting of students by their roll no., sorting of account profile by given id, etc.
+- The sorting algorithm is used for information searching and as Quicksort is the fastest algorithm so it is widely used as a better way of searching.
+- It is used everywhere where a stable sort is not needed.
+- Quicksort is a cache-friendly algorithm as it has a good locality of reference when used for arrays.
+
+#### Performance
+
+![img_25.png](img_25.png)
+
+---
+
+### Heap sort
