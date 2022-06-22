@@ -8,6 +8,12 @@
 
 ---
 
+### Resourse to train algo 
+
+[Compilaton of 150 most important algo problems](https://neetcode.io/)
+
+---
+
 ### Unit 1 Базовый процедурно-ориентированный алгоритмический язык.
 - Алфавит языка. 
 - Правила записи основных объектов языка. 

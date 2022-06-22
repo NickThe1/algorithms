@@ -17,4 +17,6 @@ void radix_sort(int arr[], int n);
 void merge_sort(int array[], int const begin, int const end);
 
 void quick_sort(int arr[], int low, int high);
+
+void heap_sort(int arr[], int n);
 #endif //ALGORITHMS_SORT_H

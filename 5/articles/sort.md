@@ -214,3 +214,25 @@ Like Merge Sort, QuickSort is a Divide and Conquer algorithm. It picks an elemen
 ---
 
 ### Heap sort
+
+Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to selection sort where we first find the minimum element and place the minimum element at the beginning. We repeat the same process for the remaining elements.
+
+What is Binary Heap?
+Let us first define a Complete Binary Tree. A complete binary tree is a binary tree in which every level, except possibly the last, is completely filled, and all nodes are as far left as possible 
+A Binary Heap is a Complete Binary Tree where items are stored in a special order such that the value in a parent node is greater(or smaller) than the values in its two children nodes. The former is called max heap and the latter is called min-heap. The heap can be represented by a binary tree or array.
+
+#### Illustration
+
+![img_28.png](img_28.png)
+
+**Video**
+
+[![img_29.png](img_29.png)](https://www.youtube.com/watch?v=2DmK_H7IdTo&t=180s&ab_channel=MichaelSambol)
+
+#### When to use and when don't
+
+Heap Sort in Data Structure is used when the smallest (shortest) or highest (longest) value is needed instantly. Other usages include finding the order in statistics, dealing with priority queues in Prim’s algorithm (also called the minimum spanning tree) and Huffman encoding or data compression.
+
+#### Performance
+
+![img_27.png](img_27.png)

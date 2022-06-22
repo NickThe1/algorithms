@@ -75,8 +75,15 @@ void test_quick_sort(){
     print_array(arr, n);
 }
 
+void test_heap_sort(){
+    int arr[] = {-10, 7, 8, 9, 1, 5};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    heap_sort(arr, n);
+    print_array(arr, n);
+}
+
 int main() {
-    test_quick_sort();
+    test_heap_sort();
     return 0;
 }
 
