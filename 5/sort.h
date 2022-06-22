@@ -11,4 +11,6 @@ void insertion_sort(int arr[], int size);
 void selection_sort(int arr[], int size);
 
 void counting_sort(int arr[], int size);
+
+void radix_sort(int arr[], int n);
 #endif //ALGORITHMS_SORT_H

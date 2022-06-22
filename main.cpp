@@ -54,8 +54,15 @@ void test_counting_sort(){
     print_array(arr, n);
 }
 
+void test_radix_sort(){
+    int arr[] = { 170, 45, 75, 90, 802, 24, 2, 66 };
+    int n = sizeof(arr) / sizeof(arr[0]);
+    radix_sort(arr, n);
+    print_array(arr, n);
+}
+
 int main() {
-    test_counting_sort();
+    test_radix_sort();
     return 0;
 }
 

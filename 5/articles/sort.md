@@ -123,13 +123,26 @@ The count is stored in an auxiliary array and the sorting is done by mapping the
 
 ### Radix sort
 
+**What if the elements are in the range from 1 to n2?**
+We can’t use counting sort because counting sort will
+take O(n2) which is worse than comparison-based sorting algorithms. Can we sort such an array in linear time?
+
+Radix Sort is the answer. The idea of Radix Sort is to do digit by digit sort starting from
+least significant digit to most significant digit. Radix sort uses counting sort as a subroutine to sort.
 
 #### Illustration
 
 **Video**
 
+[![img_17.png](img_17.png)](https://www.youtube.com/watch?v=XiuSW_mEn7g&ab_channel=CSDojo)
+
 #### When to use and when don't
 
+- It makes assumptions about the data like the data must be between a range of elements.
+- Input array must have the elements with the same radix and width.
+- Radix sort works on sorting based on individual digit or letter position.
+- We must start sorting from the rightmost position and use a stable algorithm at each position.
+- Radix sort is not an in-place algorithm as it uses temporary count array.
 
 #### Performance
 
