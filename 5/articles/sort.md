@@ -132,6 +132,8 @@ least significant digit to most significant digit. Radix sort uses counting sort
 
 #### Illustration
 
+![img_20.png](img_20.png)
+
 **Video**
 
 [![img_17.png](img_17.png)](https://www.youtube.com/watch?v=XiuSW_mEn7g&ab_channel=CSDojo)
@@ -151,3 +153,29 @@ least significant digit to most significant digit. Radix sort uses counting sort
 ---
 
 ### Merge sort
+
+It divides the input array into two halves,
+calls itself for the two halves, and then it merges the two sorted halves. 
+The merge() function is used for merging two halves. The merge(arr, l, m, r) is a key 
+process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one.
+
+#### Illustration
+
+![img_21.png](img_21.png)
+
+![img_22.png](img_22.png)
+
+![img_23.png](img_23.png)
+
+**Video**
+
+[![img_18.png](img_18.png)](https://www.youtube.com/watch?v=4VqmGXwpLqc&ab_channel=MichaelSambol)
+
+#### When to use and when don't
+
+
+#### Performance
+
+![img_19.png](img_19.png)
+
+---

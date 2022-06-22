@@ -61,8 +61,15 @@ void test_radix_sort(){
     print_array(arr, n);
 }
 
+void test_merge_sort(){
+    int arr[] = { 12, 11, 13, 5, 6, 7 };
+    auto n = sizeof(arr) / sizeof(arr[0]);
+    merge_sort(arr, 0, n - 1);
+    print_array(arr, n);
+}
+
 int main() {
-    test_radix_sort();
+    test_merge_sort();
     return 0;
 }
 
