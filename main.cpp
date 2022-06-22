@@ -48,7 +48,7 @@ void test_selection_sort(){
 
 void test_counting_sort(){
     // use 0 to 10 elements only
-    int arr[] = {4, 2, 2, 8, 3, 3, 1};
+    int arr[] = {4, 30, 2, 8, 3, 3, 20};
     int n = sizeof(arr)/sizeof(arr[0]);
     counting_sort(arr, n);
     print_array(arr, n);

@@ -42,7 +42,6 @@ void counting_sort(int arr[], int size){
     // it does not support dynamic memory allocation.
     // So, its size is provided statically.
     int output[10];
-    int count[10];
     int max = arr[0];
 
     // Find the largest element of the array
@@ -50,6 +49,9 @@ void counting_sort(int arr[], int size){
         if (arr[i] > max)
             max = arr[i];
     }
+
+    //hashing array
+    int count[max + 1];
 
     // Initialize count array with all zeros.
     for (int i = 0; i <= max; ++i) {
@@ -61,7 +63,7 @@ void counting_sort(int arr[], int size){
         count[arr[i]]++;
     }
 
-    // Store the cummulative count of each array
+    // Store the cumulative count of each array
     for (int i = 1; i <= max; i++) {
         count[i] += count[i - 1];
     }
