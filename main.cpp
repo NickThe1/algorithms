@@ -48,14 +48,42 @@ void test_selection_sort(){
 
 void test_counting_sort(){
     // use 0 to 10 elements only
-    int arr[] = {4, 2, 2, 8, 3, 3, 1};
+    int arr[] = {4, 30, 2, 8, 3, 3, 20};
     int n = sizeof(arr)/sizeof(arr[0]);
     counting_sort(arr, n);
     print_array(arr, n);
 }
 
+void test_radix_sort(){
+    int arr[] = { 170, 45, 75, 90, 802, 24, 2, 66 };
+    int n = sizeof(arr) / sizeof(arr[0]);
+    radix_sort(arr, n);
+    print_array(arr, n);
+}
+
+void test_merge_sort(){
+    int arr[] = { 12, 11, 13, 5, 6, 7 };
+    auto n = sizeof(arr) / sizeof(arr[0]);
+    merge_sort(arr, 0, n - 1);
+    print_array(arr, n);
+}
+
+void test_quick_sort(){
+    int arr[] = {-10, 7, 8, 9, 1, 5};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    quick_sort(arr, 0, n - 1);
+    print_array(arr, n);
+}
+
+void test_heap_sort(){
+    int arr[] = {-10, 7, 8, 9, 1, 5};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    heap_sort(arr, n);
+    print_array(arr, n);
+}
+
 int main() {
-    test_counting_sort();
+    test_heap_sort();
     return 0;
 }
 
