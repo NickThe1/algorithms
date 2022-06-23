@@ -1,0 +1,8 @@
+//
+// Created by 1 on 23.06.2022.
+//
+
+#ifndef ALGORITHMS_DATA_STRUCTURE_H
+#define ALGORITHMS_DATA_STRUCTURE_H
+
+#endif //ALGORITHMS_DATA_STRUCTURE_H

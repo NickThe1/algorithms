@@ -1,5 +1,7 @@
 # Search algorithms
 
+![img_30.png](img_30.png)
+
 ---
 
 ### Linear search

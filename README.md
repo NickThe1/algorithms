@@ -59,10 +59,10 @@
 ### Unit 7 Линейные структуры данных
 
 - [Массив](7/article/structures.md#array)
-- стеки
-- очереди
-- списки
-- связные и двусвязные списки
+- [стеки](7/article/structures.md#stack)
+- [очереди](7/article/structures.md#queue)
+- [списки](7/article/structures.md#list)
+- [связные и двусвязные списки](7/article/structures.md#list)
 
 ---
 

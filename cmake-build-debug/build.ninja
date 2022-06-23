@@ -67,6 +67,12 @@ build CMakeFiles/algorithms.dir/5/search.cpp.obj: CXX_COMPILER__algorithms_Debug
   OBJECT_DIR = CMakeFiles\algorithms.dir
   OBJECT_FILE_DIR = CMakeFiles\algorithms.dir\5
 
+build CMakeFiles/algorithms.dir/7/data_structure.cpp.obj: CXX_COMPILER__algorithms_Debug C$:/cpp/algorithms/7/data_structure.cpp || cmake_object_order_depends_target_algorithms
+  DEP_FILE = CMakeFiles\algorithms.dir\7\data_structure.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles\algorithms.dir\7
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target algorithms
@@ -75,7 +81,7 @@ build CMakeFiles/algorithms.dir/5/search.cpp.obj: CXX_COMPILER__algorithms_Debug
 #############################################
 # Link the executable algorithms.exe
 
-build algorithms.exe: CXX_EXECUTABLE_LINKER__algorithms_Debug CMakeFiles/algorithms.dir/main.cpp.obj CMakeFiles/algorithms.dir/5/sort.cpp.obj CMakeFiles/algorithms.dir/5/search.cpp.obj
+build algorithms.exe: CXX_EXECUTABLE_LINKER__algorithms_Debug CMakeFiles/algorithms.dir/main.cpp.obj CMakeFiles/algorithms.dir/5/sort.cpp.obj CMakeFiles/algorithms.dir/5/search.cpp.obj CMakeFiles/algorithms.dir/7/data_structure.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\algorithms.dir
