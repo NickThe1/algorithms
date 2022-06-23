@@ -1,6 +1,7 @@
 #include <iostream>
 #include "5/search.h"
 #include "5/sort.h"
+#include "7/data_structure.h"
 
 void test_search_linear(){
     int arr[] = { 2, 3, 4, 10, 40 };
