@@ -1,6 +1,6 @@
 # ninja log v5
 675	844	6775836888098449	algorithms.exe	3b954fa37bb57e44
 9	629	6775836885988581	CMakeFiles/algorithms.dir/main.cpp.obj	4f7b1561810010fb
-2	255	6776845656154008	build.ninja	44d2543aeedaad04
+2	255	6777503567820269	build.ninja	44d2543aeedaad04
 9	680	6774483535643140	CMakeFiles/algorithms.dir/5/search.cpp.obj	f927d2b1742574d0
 5	675	6775836886458544	CMakeFiles/algorithms.dir/5/sort.cpp.obj	37013c65295dbc2b
