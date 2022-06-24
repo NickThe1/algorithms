@@ -68,16 +68,18 @@
 
 ### Unit 8 Хэш
 
-- [Хеш таблицы](8/article/hash.md#)
-- [Хеш функции](8/article/hash.md#)
-- [Производительность хеш-таблицы](8/article/hash.md#)
-- [Дизайн хеш-функций](8/article/hash.md#)
-- [Схемы разрешения столкновений](8/article/hash.md#)
-  - [отдельная цепочка](8/article/hash.md#)
-  - [открытая адресация](8/article/hash.md#)
-  - [линейное зондирование](8/article/hash.md#)
-  - [квадратичное зондирование](8/article/hash.md#)
-  - [двойное хеширование](8/article/hash.md#)
+- [Хеш таблицы](8/article/hash.md#hash-table)
+- [Хеш функции](8/article/hash.md#hash-function)
+- [Производительность хеш-таблицы](8/article/hash.md#complexity)
+- [Дизайн хеш-функций](8/article/hash.md#hash-function)
+- [Схемы разрешения столкновений](8/article/hash.md#separate-chaining)
+  - [отдельная цепочка](8/article/hash.md#separate-chaining)
+  - [открытая адресация](8/article/hash.md#open-addressing)
+  - [линейное зондирование](8/article/hash.md#linear-probing)
+  - [квадратичное зондирование](8/article/hash.md#quadratic-probing)
+  - [двойное хеширование](8/article/hash.md#double-hashing)
+
+---
 
 ### Unit 9 Дерево и двоичная куча
 
