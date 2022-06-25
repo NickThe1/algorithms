@@ -95,12 +95,12 @@
 
 ### Unit 10 Графы и графовые алгоритмы
 
-- [Понятие графов](10/article/graph.md#)
-- [Работа с графами](10/article/graph.md#)
-  - [Поиск в глубину (BFS)](10/article/graph.md#)
-  - [Поиск в ширину (DFS)](10/article/graph.md#)
-  - [Алгоритм Беллмана-Форда](10/article/graph.md#)
-  - [Алгоритм Дейкстра](10/article/graph.md#)
-  - [Алгоритм Флойда](10/article/graph.md#)
-  - [Алгоритм Прима](10/article/graph.md#)
+- [Понятие графов](10/article/graph.md#definition)
+- [Работа с графами](10/article/graph.md#algorithms)
+  - [Поиск в ширину (BFS)](10/article/graph.md#breadth-first-search)
+  - [Поиск в глубину (DFS)](10/article/graph.md#depth-first-search)
+  - [Алгоритм Беллмана-Форда](10/article/graph.md#bellmanford-algorithm)
+  - [Алгоритм Дейкстра](10/article/graph.md#dijkstras-algorithm)
+  - [Алгоритм Флойда](10/article/graph.md#floydwarshall-algorithm)
+  - [Алгоритм Прима](10/article/graph.md#prims-algorithm)
   - [Алгоритм Крускала](10/article/graph.md#)
