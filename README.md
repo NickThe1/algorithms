@@ -103,4 +103,4 @@
   - [Алгоритм Дейкстра](10/article/graph.md#dijkstras-algorithm)
   - [Алгоритм Флойда](10/article/graph.md#floydwarshall-algorithm)
   - [Алгоритм Прима](10/article/graph.md#prims-algorithm)
-  - [Алгоритм Крускала](10/article/graph.md#)
+  - [Алгоритм Крускала](10/article/graph.md#kruskals-algorithm)
