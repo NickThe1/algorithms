@@ -90,3 +90,17 @@
 - [AVL деревья](9/articles/tree.md#avl-деревья)
 - [Красно-чёрное дерево](9/articles/tree.md#красно-чёрные-деревья)
 - [Двоичная куча](9/articles/tree.md#двоичная-куча)
+
+---
+
+### Unit 10 Графы и графовые алгоритмы
+
+- [Понятие графов](10/article/graph.md#)
+- [Работа с графами](10/article/graph.md#)
+  - [Поиск в глубину (BFS)](10/article/graph.md#)
+  - [Поиск в ширину (DFS)](10/article/graph.md#)
+  - [Алгоритм Беллмана-Форда](10/article/graph.md#)
+  - [Алгоритм Дейкстра](10/article/graph.md#)
+  - [Алгоритм Флойда](10/article/graph.md#)
+  - [Алгоритм Прима](10/article/graph.md#)
+  - [Алгоритм Крускала](10/article/graph.md#)
