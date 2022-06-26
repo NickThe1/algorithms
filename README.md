@@ -15,17 +15,17 @@
 ---
 
 ### Unit 1 Базовый процедурно-ориентированный алгоритмический язык.
-- Алфавит языка. 
-- Правила записи основных объектов языка. 
-- Типы данных. 
-- Константы. 
-- Переменные. 
-- Метки. 
-- Выражения. 
-- Арифметические и логические выражения. 
-- Описание линейных и разветвляющихся структур алгоритмов. 
-- Организация алгоритмов циклической структуры. 
-- Алгоритмическое описание вложенных циклических структур.
+- [Алфавит языка.](1/articles/base.md#alphabet-of-language) 
+- [Правила записи основных объектов языка.](1/articles/base.md#rules-for-writing-the-main-objects-of-the-language) 
+- [Типы данных.](1/articles/base.md#data-types) 
+- [Константы.](1/articles/base.md#constants) 
+- [Переменные.](1/articles/base.md#variable) 
+- [Метки.](1/articles/base.md#labels) 
+- [Выражения.](1/articles/base.md#expression) 
+- [Арифметические и логические выражения.](1/articles/base.md#arithmetic-and-logical-expressions)  
+- [Описание линейных и разветвляющихся структур алгоритмов.](1/articles/base.md#description-of-linear-and-branching-structures-of-algorithms) 
+- [Организация алгоритмов циклической структуры.](1/articles/base.md#organization-of-cyclic-structure-algorithms)  
+- [Алгоритмическое описание вложенных циклических структур.](1/articles/base.md#algorithmic-description-of-nested-cyclic-structures) 
 
 ---
 
