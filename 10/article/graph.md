@@ -47,6 +47,9 @@ called edges (sometimes links or lines).
 
 ---
 
+![image](https://user-images.githubusercontent.com/51372666/177028089-287542c8-36db-4198-980f-9f82c4e38215.png)
+
+
 #### Bellman–Ford algorithm
 
 The Bellman–Ford algorithm is an algorithm that computes shortest paths from a single source vertex to all of the other vertices in a weighted digraph.[1] It is slower than Dijkstra's algorithm for the same problem, but more versatile, as it is capable of handling graphs in which some of the edge weights are negative numbers.
